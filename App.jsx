@@ -7,10 +7,11 @@ import poster1 from './src/img/1.webp'
 import poster2 from './src/img/2.webp'
 import poster3 from './src/img/3.webp'
 import poster4 from './src/img/4.webp'
+import poster4 from './src/img/5.webp'
 
 const App = () => {
     const defaultUrl = 'https://filedn.eu/lPq6O1K7j8DR1n7JwTuYjYz/7ooOOKjskks39jdhhdooommcooodkkywrrqbnx.mp4'
-    const posterImages = [poster1, poster2, poster3, poster4]
+    const posterImages = [poster1, poster2, poster3, poster4, poster5]
     const getRandomPoster = () => posterImages[Math.floor(Math.random() * posterImages.length)]
     const [theme, setTheme] = useState('dark')
     const [videoUrl, setVideoUrl] = useState('')
